@@ -1,0 +1,7 @@
+Interview questions starts with "What is deadlock?"
+Answer is simple, when two or more threads are waiting for each 
+other to release lock and get stuck for infinite time, 
+situation is called deadlock . It will only happen in case of multitasking
+
+
+
