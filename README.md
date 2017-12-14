@@ -16,8 +16,8 @@ pending:
 
 1.1 Reflection in java
 	https://www.journaldev.com/1789/java-reflection-example-tutorial
+	
 1.2 Annotations in Java
-
 	https://www.journaldev.com/721/java-annotations
 
 1.3 Generics
@@ -47,3 +47,5 @@ The deadlock happens if four condition is true e.g. mutual exclusion, no waiting
 
 
 
+Notes:
+We can’t define interface static method for Object class methods, we will get compiler error as “This static method cannot hide the instance method from Object”. This is because it’s not allowed in java, since Object is the base class for all the classes and we can’t have one class level static method and another instance method with same signature.
